@@ -1,0 +1,29 @@
+@media screen and (max-width: 991px) {
+  nav .navbar-nav li {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .services-header h3 {
+    font-size: 18px;
+  }
+
+  .single-testimonial .media img {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+  }
+
+  .single-testimonial .media .media-body h5 {
+    font-size: 16px;
+  }
+
+  .single-testimonial .media .media-body p {
+    font-size: 14px;
+  }
+
+  .testimonials-container {
+    padding: 30px 50px;
+  }
+}
