@@ -2,17 +2,36 @@
   nav .navbar-nav li {
     margin-bottom: 15px;
   }
+
+  .header-section .header-image img,
+  .section-image img {
+    height: 330px;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .header-text-content h1 {
+    font-size: 34px;
+    line-height: 1.5;
+  }
+
   .services-header h3 {
     font-size: 18px;
+  }
+
+  .section-content h3 {
+    font-size: 26px;
   }
 
   .single-testimonial .media img {
     height: 80px;
     width: 80px;
     margin-right: 10px;
+  }
+
+  .header-section .header-image img,
+  .section-image img {
+    height: 250px;
   }
 
   .single-testimonial .media .media-body h5 {

@@ -53,19 +53,19 @@ nav .navbar-nav .nav-item .nav-link.active {
 }
 
 .navbar-toggler .line {
-  width: 30px;
   height: 4px;
   background-color: #1f1534;
   margin-bottom: 4px;
   border-radius: 100px;
 }
 
-.navbar-toggler .line-2 {
-  width: 25px;
+.navbar-toggler .line-1,
+.navbar-toggler .line-3{
+  width: 22px;
 }
 
-.navbar-toggler .line-3 {
-  width: 20px;
+.navbar-toggler .line-2 {
+  width: 32px;
 }
 
 /* HEADER SECTION */
@@ -97,6 +97,13 @@ nav .navbar-nav .nav-item .nav-link.active {
   color: #fff;
   padding: 0 40px;
   font-weight: 600;
+  transition: all .5s;
+}
+
+.header-text-content .header-btn:hover{
+  color: #5b9bf3;
+  border: 1px solid #5b9bf3;
+  background: transparent;
 }
 
 .header-section .header-image img {
@@ -170,13 +177,19 @@ nav .navbar-nav .nav-item .nav-link.active {
   text-transform: capitalize;
   display: inline-block;
   border: 1px solid #458ff6;
-  color: #458ff6 !important;
+  color: #458ff6;
   height: 50px;
   padding: 0 40px;
   border-radius: 50px;
   line-height: 46px;
   font-weight: 600;
   margin: 20px 0;
+  transition: all .5s;
+}
+
+.secondary-btn:hover{
+  background: #5b9bf3;
+  color: #ffffff;
 }
 
 /* LEADIND HEALTHCARE PROVIDER */
@@ -210,6 +223,11 @@ nav .navbar-nav .nav-item .nav-link.active {
 .section-content p {
   color: #7d7987;
   line-height: 30px;
+}
+
+.section-image img{
+  margin: 0 auto;
+  display: block;
 }
 
 /* TESTIMONIALS SECTION */
@@ -316,8 +334,10 @@ nav .navbar-nav .nav-item .nav-link.active {
   width: 10px;
   margin: 0 10px;
   border-radius: 50%;
+  transition: all .5s;
 }
 
+.owl-carousel .owl-dots .owl-dot:hover,
 .owl-carousel .owl-dots .owl-dot.active{
   background-color: #5b9bf3;
 }
@@ -399,7 +419,7 @@ footer p {
 
 .links-section ul li a{
   color: #ffffff;
-  display: block;
+  display: inline-block;
 }
 
 footer .footer-element{
